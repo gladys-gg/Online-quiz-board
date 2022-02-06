@@ -21,3 +21,10 @@ submit.addEventListener("click", (e) =>{
     e.preventDefault()
     result()
 })
+
+function result(){
+    if(question1Answer.checked){
+        question1Score = 1
+    }else{
+        question1Score = 0
+    }
