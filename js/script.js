@@ -14,3 +14,7 @@ let question3Score;
 let question4Score;
 let question5Score;
 
+submit.addEventListener("click", (e) =>{
+    e.preventDefault()
+    result()
+})
