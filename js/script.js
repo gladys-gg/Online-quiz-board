@@ -5,3 +5,12 @@ const question4Answer = document.getElementById("que4answer4");
 const question5Answer = document.getElementById("que5answer1");
 
 const submit = document.getElementById("submit");
+
+
+
+let question1Score;
+let question2Score;
+let question3Score;
+let question4Score;
+let question5Score;
+
