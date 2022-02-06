@@ -52,3 +52,7 @@ function result(){
     console.log(scores)
     let percent= (scores / 5 )*100
     console.log(percent)
+    
+    //hides the form after clicking the submit button
+    const onlineQuiz = document.getElementById("onlinequiz");
+    onlineQuiz.style.display = "none"
