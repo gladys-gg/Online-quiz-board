@@ -48,4 +48,7 @@ function result(){
     }else{
         question5Score = 0
     }
-  
+    let scores= question1Score + question2Score + question3Score +question4Score +question5Score
+    console.log(scores)
+    let percent= (scores / 5 )*100
+    console.log(percent)
