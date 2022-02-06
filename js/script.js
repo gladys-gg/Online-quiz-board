@@ -6,7 +6,10 @@ const question5Answer = document.getElementById("que5answer1");
 
 const submit = document.getElementById("submit");
 
-
+//hides the reload button from being viewed on the form
+//makes it visible on the next page
+const totalScore = document.getElementById("total-score");
+totalScore.style.display = "none"
 
 let question1Score;
 let question2Score;
