@@ -57,4 +57,13 @@ function result(){
     const onlineQuiz = document.getElementById("onlinequiz");
     onlineQuiz.style.display = "none"
 
-    
+    const totalScore = document.getElementById("total-score");
+const totalDiv = document.getElementById("total");
+const percentScore = document.getElementById("percentage");
+totalScore.style.display = "flex"
+
+totalScore.style.height = "300px"
+totalDiv.innerHTML = `<h3> Your total score is ${scores}</h3>`
+
+percentScore.innerHTML = `<h4> Your total percentage is ${percent}</h4>`
+}
