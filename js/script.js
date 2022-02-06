@@ -56,3 +56,5 @@ function result(){
     //hides the form after clicking the submit button
     const onlineQuiz = document.getElementById("onlinequiz");
     onlineQuiz.style.display = "none"
+
+    
