@@ -28,3 +28,24 @@ function result(){
     }else{
         question1Score = 0
     }
+    if(question2Answer && question2Answer.checked){
+        question2Score = 1
+    }else{
+        question2Score = 0
+    }
+    if(question3Answer.checked){
+        question3Score = 1
+    }else{
+        question3Score = 0
+    }
+    if(question4Answer.checked){
+        question4Score = 1
+    }else{
+        question4Score = 0
+    }
+    if(question5Answer.checked){
+        question5Score = 1
+    }else{
+        question5Score = 0
+    }
+  
